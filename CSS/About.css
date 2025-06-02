@@ -1,0 +1,210 @@
+/* COPY THE NAV BAR FOR ALL PAGES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+
+.navbarcontainer{
+    padding: 10px;
+    display: flex; 
+    flex-direction: row;
+}
+
+.left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.middle{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.right{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+
+}
+
+.about{
+    border-bottom: 2px orangered solid;
+    color: chocolate;
+}
+
+
+.specialFont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+
+/* DONE   */
+
+
+
+H1{
+    font-weight: 3000;
+}
+
+.container2{
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 70px;
+    justify-content: center;
+
+}
+
+.about-img{
+    margin-top: 60px;
+}
+
+.smallercontainer{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.text{
+    padding-top: 20px;
+    width: 400px;
+    height: 200px;
+    text-align: right;
+    font-size: larger;
+
+
+    
+}
+
+
+
+ /* COPY THE FOOTER FOR ALL PAGES    */
+ .footercontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: darkslategray;
+
+
+}
+
+.item1{
+    color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.item2{
+    color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item3{
+    color: white;
+
+
+}
+
+.item4{
+    color: white;
+}
+
+.smolgridcontainer{
+
+    display: grid;
+    grid-template-rows: 40px 40px 40px;
+    grid-template-columns: 60px 60px ;
+    gap: 10px;
+}
+
+.smolgriditem1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.smolgriditem2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.smolgriditem3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.smolgriditem4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.smolgriditem5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.smolgriditem6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.font{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+li{
+    padding: 3px;
+}
+
+.contactpadding{
+    padding: 3px;
+}
+.contactpadding img{
+    width: 20px;
+    height: 20px;
+}
+
+.contactpadding .contact-item {
+    margin: 10px 0;
+  }
+
+a:link{
+    text-decoration: none;
+    color: green;
+}
+
+/* DONE */
